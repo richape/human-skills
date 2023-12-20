@@ -1,13 +1,10 @@
-import { useFruits } from '../hooks/useFruits.ts'
-
 function App() {
-  const { data } = useFruits()
-
   return (
     <>
-      <div className="bg-purple-600 text-yellow-400 p-5 text-xl font-mono text-center">
-        <h1>Fullstack Boilerplate - with Fruits!</h1>
-        <ul>{data && data.map((fruit) => <li key={fruit}>{fruit}</li>)}</ul>
+      <div className="bg-purple-700 text-yellow-500 p-5 text-xl font-bold font-sans text-center">
+        <h2>Welcome to the</h2>
+        <h1 className="text-3xl font-extrabold">Human Skills</h1>
+        <h2>reflections App</h2>
       </div>
     </>
   )
