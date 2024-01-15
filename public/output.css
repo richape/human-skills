@@ -551,25 +551,8 @@ video {
   justify-content: center;
 }
 
-.bg-purple-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
-}
-
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.p-28 {
-  padding: 7rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .p-8 {

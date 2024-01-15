@@ -3,7 +3,7 @@ function Logo() {
     <div className="flex items-center justify-center p-8">
       <img
         // src="/images/logo.jpg"
-        alt="Dev-Academy-Logo"
+        alt="Dev Academy Logo"
         style={{ width: '100px', height: '100px' }}
       ></img>
     </div>
