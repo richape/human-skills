@@ -4,7 +4,9 @@ function AppIntro() {
   return (
     <div className="text-center">
       <Logo />
-      <h1 className="text-3xl font-bold mt-4">Welcome to Bootcamp</h1>
+      <h1 className="text-yellow-500 text-3xl font-bold mt-4">
+        Welcome to Bootcamp
+      </h1>
 
       <p className="text-yellow-500">
         This is your friendly Human Skills reflections App, it has been created
