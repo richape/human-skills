@@ -4,7 +4,7 @@ import Home from './Home'
 
 function App() {
   return (
-    <div className="bg-purple-700">
+    <div style={{ backgroundColor: '#442672' }}>
       <Home />
       <Logo />
       <Footer />
