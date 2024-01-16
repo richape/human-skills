@@ -8,7 +8,7 @@ function App() {
   return (
     <div style={{ backgroundColor: '#40276E' }}>
       <Home />
-      <Logo />
+      <Logo className="pt-8" />
       <div className="flex justify-center items-center mt-4">
         <Login className="mr-4" />
         <Register />
