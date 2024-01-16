@@ -9,8 +9,10 @@ function App() {
     <div style={{ backgroundColor: '#40276E' }}>
       <Home />
       <Logo />
-      <Login />
-      <Register />
+      <div className="flex justify-center items-center mt-4">
+        <Login className="mr-4" />
+        <Register />
+      </div>
       <Footer />
     </div>
   )
