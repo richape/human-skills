@@ -4,7 +4,7 @@ function Logo() {
       <img
         src="/images/logo.png"
         alt="Dev Academy Logo"
-        style={{ width: '25%' }}
+        style={{ width: '20%' }}
       ></img>
     </div>
   )
