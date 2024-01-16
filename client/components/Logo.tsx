@@ -1,10 +1,14 @@
-function Logo() {
+interface LogoProps {
+  className?: string
+}
+
+function Logo({ className }: LogoProps) {
   return (
-    <div className="flex items-center justify-center p-8">
+    <div className={`flex items-center justify-center p-5 ${className}`}>
       <img
-        // src="/images/logo.jpg"
+        src="/images/logo.png"
         alt="Dev Academy Logo"
-        style={{ width: '100px', height: '100px' }}
+        style={{ width: '20%' }}
       ></img>
     </div>
   )
