@@ -8,7 +8,7 @@ function Logo({ className }: LogoProps) {
       <img
         src="/images/logo.png"
         alt="Dev Academy Logo"
-        style={{ width: '15%' }}
+        style={{ width: '20%' }}
       ></img>
     </div>
   )

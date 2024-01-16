@@ -6,7 +6,7 @@ import Register from './Register'
 
 function App() {
   return (
-    <div style={{ backgroundColor: '#40276E' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#40276E' }}>
       <Home />
       <Logo className="pt-8" />
       <div className="flex justify-center items-center mt-4">
