@@ -539,10 +539,6 @@ video {
   margin-top: 1rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .flex {
   display: flex;
 }
@@ -586,11 +582,6 @@ video {
   line-height: 1;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -600,11 +591,12 @@ video {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.drop-shadow-md {
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
