@@ -5,7 +5,10 @@ interface LoginProps {
 function Login({ className }: LoginProps) {
   return (
     <div className={className}>
-      <div className="p-3.5 rounded-md" style={{ backgroundColor: '#B87DF2' }}>
+      <div
+        className="p-3.5 rounded-md drop-shadow-xl"
+        style={{ backgroundColor: '#7E51B2' }}
+      >
         <button className="text-yellow-500 text-2xl font-bold font-sans text-center bg-opacity-75">
           login
         </button>

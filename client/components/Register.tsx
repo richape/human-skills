@@ -1,7 +1,12 @@
+// Need to work on Auth0 form and routes
+
 function Register() {
   return (
     <div>
-      <div className="p-3.5 rounded-md" style={{ backgroundColor: '#B87DF2' }}>
+      <div
+        className="p-3.5 rounded-md drop-shadow-xl"
+        style={{ backgroundColor: '#7E51B2' }}
+      >
         <button className="text-yellow-500 text-2xl font-bold font-sans text-center">
           sign up
         </button>
