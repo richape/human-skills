@@ -1,7 +1,9 @@
 export async function up(knex) {
   return knex.schema.createTable('user', (table) => {
     table.increments('id')
-    table.string('name')
+    table.string('full_name').primary()
+    table.string('email')
+    table.string('cohort')
   })
 }
 
