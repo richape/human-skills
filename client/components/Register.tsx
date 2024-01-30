@@ -7,9 +7,7 @@ function Register() {
         className="p-3.5 rounded-md drop-shadow-xl"
         style={{ backgroundColor: '#7E51B2' }}
       >
-        <button className="text-yellow-500 text-2xl font-bold font-sans text-center">
-          sign up
-        </button>
+        <button className="text-yellow-500 px-4 btn">sign up</button>
       </div>
     </div>
   )
