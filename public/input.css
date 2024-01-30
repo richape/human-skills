@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .btn{
-  @apply rounded-md py-1 px-3 text-2xl font-bold cursor-pointer text-center bg-opacity- 75tracking-wide; 
+  @apply rounded-md py-1 px-3 text-2xl font-bold cursor-pointer text-center bg-opacity-75 tracking-wide; 
 }
