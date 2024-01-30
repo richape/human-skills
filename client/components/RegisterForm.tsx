@@ -1,5 +1,9 @@
-import { useForm, FormProvider } from 'react-hook-form'
+import { useForm, UseFormReturn, FormProvider } from 'react-hook-form'
 import { useState } from 'react'
+
+interface RegisterFormProps {
+  methods: UseFormReturn
+}
 
 export const RegistrationForm = () => {
   const methods = useForm()
@@ -9,30 +13,30 @@ export const RegistrationForm = () => {
   const [Cohort, setCohort] = useState('')
   const [Password, setPassword] = useState('')
 
-  const handleFullNameChange = (event) => {
+  const handleFullNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setFullName(event.target.value)
   }
-  const handleEmailChange = (event) => {
+  const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(event.target.value)
   }
-  const handleCohortChange = (event) => {
+  const handleCohortChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setCohort(event.target.value)
   }
-  const handlePasswordChange = (event) => {
+  const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPassword(event.target.value)
   }
 
   return <RegisterForm methods={methods} />
 }
 
-function RegisterForm({ methods }) {
+function RegisterForm({ methods }: RegisterFormProps) {
   const { handleSubmit, register } = methods
   return (
     <div>
       <h1>Register</h1>
       <p>Please fill in your details below to register your account</p>
       <FormProvider {...methods}>
-        <form className="w-full max-w-sm" onSubmit={handleSubmit}>
+        <form className="w-full max-w-sm" onSubmit={onSubmit}>
           <div className="md:flex md:items-center mb-6">
             <div className="md:w-1/3">
               <label
