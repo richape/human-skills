@@ -8,7 +8,7 @@ There has been a lot of trial and error and a lot of work figuring out how we ca
 
 ### What's included
 
-## User / students
+### User / students
 * login functionality using Auth0,
 * registration page for students to input details:
   - Fullname,
@@ -19,7 +19,7 @@ There has been a lot of trial and error and a lot of work figuring out how we ca
 * phase breakdown of Deep Dives,
 * Weekly reflections pages to add, edit
 
-## Admin
+### Admin
 * Human Skills Team can login and will be able to access student input to pull out information for AirTable (for recording purposes),
 
 # Todo:
