@@ -4,7 +4,7 @@ This is an app to help capture student reflections for Human Skills Assessments.
 
 ### Why?
 
-There has been a lot of trial and error and a lot of work figuring out how we can make this experience easier and more streamline accesibilty for students first and then the Human Skills Team. As a team we have tried creating a reflections logbook using Google Docs to using google forms which feeds a seperate google spreadsheet for each cohort.
+There has been a lot of trial and error and a lot of work figuring out how we can make this experience easier and more streamline and more accessible for students first and then the Human Skills Team. As a team we have tried creating a reflections logbook using Google Docs to using google forms which feeds a seperate google spreadsheet for each cohort.
 
 ### What's included
 
