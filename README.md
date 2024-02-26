@@ -1,35 +1,36 @@
-# Boilerplate: Fullstack with Sass
+# Human Skills Reflections App
 
-## Setup
+This is an app to help capture student reflections for Human Skills Assessments. 
+
+### Why?
+
+There has been a lot of trial and error and a lot of work figuring out how we can make this experience easier and more streamline and more accessible for students first and then the Human Skills Team. As a team we have tried creating a reflections logbook using Google Docs to using google forms which feeds a seperate google spreadsheet for each cohort.
 
 ### What's included
 
-This repo includes:
+### User / students
+* login functionality using Auth0,
+* registration page for students to input details:
+  - Fullname,
+  - Email,
+  - Cohort,
+  - Password,
+* an introduction page,
+* phase breakdown of Deep Dives,
+* Weekly reflections pages to add, edit
 
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing Sass
+### Admin
+* Human Skills Team can login and will be able to access student input to pull out information for AirTable (for recording purposes),
 
-### Installation
+# Todo:
 
-#### **From the Github UI**
+- [ ] complete components,
+- [ ] seperate components - smart components & dumb components,
+- [ ] create database,
+- [ ] test database,
+- [ ] work on routes,
+- [ ] test routes,
 
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
-
-#### **From the command line**
-
-```
-git clone https://github.com/dev-academy-challenges/boilerplate-fullstack-query [your-project-name]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
+Will add tasks if more arise.
 
 ---
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack-query)
