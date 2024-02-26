@@ -1,6 +1,6 @@
-import Logo from './Logo'
-import Footer from './Footer'
-import Home from './Home'
+import Logo from './stateless-components/Logo'
+import Footer from './stateless-components/Footer'
+import Home from './stateless-components/Home'
 import Login from './Login'
 import Register from './Register'
 
