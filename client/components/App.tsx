@@ -1,6 +1,6 @@
-import Logo from './dumb-components/Logo'
-import Footer from './dumb-components/Footer'
-import Home from './dumb-components/Home'
+import Logo from './nl-components/Logo'
+import Footer from './nl-components/Footer'
+import Home from './nl-components/Home'
 import Login from './Login'
 import Register from './Register'
 
