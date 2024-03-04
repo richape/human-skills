@@ -4,14 +4,14 @@ This is an app to help capture student reflections for Human Skills Assessments.
 
 ### Why?
 
-There has been a lot of trial and error and a lot of work figuring out how we can make this experience easier and more streamline and more accessible for students first and then the Human Skills Team. As a team we have tried creating a reflections logbook using Google Docs to using google forms which feeds a seperate google spreadsheet for each cohort.
+There has been a lot of trial and error and a lot of work figuring out how we can make this experience easier and more streamline and more accessible for students first and then the Human Skills Team. As a team we have tried creating a reflections logbook using Google Docs to using google forms which feeds a separate google spreadsheet for each cohort.
 
 ### What's included
 
 ### User / students
 * login functionality using Auth0,
 * registration page for students to input details:
-  - Fullname,
+  - Full-name,
   - Email,
   - Cohort,
   - Password,
@@ -25,11 +25,20 @@ There has been a lot of trial and error and a lot of work figuring out how we ca
 # Todo:
 
 - [ ] complete components,
-- [ ] seperate components - smart components & dumb components,
+- [ ] separate components - smart components & dumb components,
 - [ ] create database,
 - [ ] test database,
 - [ ] work on routes,
 - [ ] test routes,
+- [ ] react-calendar 
+  - [ ] Integrate with Auth0,
+  - [ ] Customize calendar for User bookings,
+  - [ ] Implement state management for Bookings,
+  - [ ] Backend integration for Persistance,
+  - [ ] Optimize performance,
+  - [ ] User experience,
+  - [ ] Security,
+  - [ ] Test and Feedback,
 
 Will add tasks if more arise.
 
