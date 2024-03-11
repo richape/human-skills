@@ -2,12 +2,6 @@ export async function seed(knex) {
   await knex('week').insert([
     {
       week: 'Week 1',
-      Question_1:
-        'THS01 - Create and follow a self directed learning plan, incorporating well-being / oranga',
-      Question_2:
-        'THS05 - Reflect on your personal and professional growth while demonstrating the ability to show self compassion',
-      Question_3:
-        'Demonstrate the ability to create & contribute to a supportive and inclusive team culture',
     },
     {
       week: 'Week 2',
