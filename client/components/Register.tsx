@@ -24,7 +24,7 @@ export default function Register() {
 
 // function Register() {
 return (
-  <div>
+  <>
     <div
       className="rounded-md drop-shadow-xl"
       // p-3.5
@@ -34,5 +34,6 @@ return (
         sign up
       </button>
     </div>
-  </div>
+  </>
 )
+}
